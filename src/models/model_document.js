@@ -75,11 +75,6 @@
  *           status:
  *             type: boolean
  *             example: true
- *   securitySchemes:
- *     bearerAuth:
- *       type: http
- *       scheme: bearer
- *       bearerFormat: JWT
  *     product:
  *       type: object
  *       properties:
@@ -125,4 +120,9 @@
  *         quantity:
  *           type: number
  *           example: 5
+ *   securitySchemes:
+ *     bearerAuth:
+ *       type: http
+ *       scheme: bearer
+ *       bearerFormat: JWT
  */
